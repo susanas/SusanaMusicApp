@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.susanamusicapp.MainActivity">
+    <TextView
+        android:id="@+id/songs_view"
+        style="@style/MusicStyle"
+        android:text="@string/string_songs" />
+    <TextView
+        android:id="@+id/artists_view"
+        style="@style/MusicStyle"
+        android:text="@string/string_artists" />
+</LinearLayout>
