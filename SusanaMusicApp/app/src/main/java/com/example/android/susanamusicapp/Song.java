@@ -1,16 +1,16 @@
 package com.example.android.susanamusicapp;
 
 public class Song {
-    private String xName;
-    private String xDetail;
+    private String mName;
+    private String mDetail;
     public Song (String name, String detail){
-        xName = name;
-        xDetail = detail;
+        mName = name;
+        mDetail = detail;
     }
     public String getName() {
-        return xName;
+        return mName;
     }
     public String getDetail() {
-        return xDetail;
+        return mDetail;
     }
 }

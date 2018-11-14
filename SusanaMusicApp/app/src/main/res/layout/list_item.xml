@@ -23,7 +23,7 @@
         android:maxHeight="32dp"
         android:maxWidth="32dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/play_round" />
+        android:src="@drawable/play24" />
     <TextView
         android:id="@+id/detaillist_view"
         android:layout_width="wrap_content"
